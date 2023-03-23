@@ -1,4 +1,4 @@
-export interface IQuestion {
+export type IQuestion = {
   response_code: number;
   results: string[];
   type: string;
